@@ -16,20 +16,18 @@ const data = {
 
 export default function Hero() {
   return (
-    <section className="">
+    <section className="relative flex min-h-screen flex-col justify-center overflow-hidden">
       <Container className="relative z-20 px-4 sm:px-6 lg:px-8 py-24 lg:py-32 w-full">
-        <div>
-          <div>
-            <span>{data.subtitulo}</span>
-            <h1 className="font-light uppercase tracking-wide text-4xl sm:text-5xl lg:text-6xl">{data.titulo}</h1>
-            <p className="mt-6 text-base font-light leading-relaxed">{data.descripcion}</p>
-            <div className="mt-10 flex gap-4 justify-center lg:justify-start">
-              <Button asChild>
-                <Link href={data.button.link}>
-                  {data.button.texto}
-                </Link>
-              </Button>
-            </div>
+        <div className="relative mx-auto max-w-3xl text-center lg:mx-0 lg:text-left">
+          <span>{data.subtitulo}</span>
+          <h1 className="font-light uppercase tracking-wide text-4xl sm:text-5xl lg:text-6xl">{data.titulo}</h1>
+          <p className="mt-6 text-base font-light leading-relaxed">{data.descripcion}</p>
+          <div className="mt-10 flex gap-4 justify-center lg:justify-start">
+            <Button asChild>
+              <Link href={data.button.link}>
+                {data.button.texto}
+              </Link>
+            </Button>
           </div>
         </div>
       </Container>
