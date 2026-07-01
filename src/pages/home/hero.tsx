@@ -1,4 +1,4 @@
-import { ROUTES } from '@/app/routes'
+import { ROUTES } from '@/routes'
 import Container from '@/components/container'
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'

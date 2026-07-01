@@ -34,7 +34,9 @@ export default function RectorMessage() {
             </div>
           </div>
           <div className="flex flex-col justify-center lg:col-span-7">
-            <h2 className="text-3xl font-light uppercase tracking-wide sm:text-4xl">{data.titulo}</h2>
+            <h2 className="text-3xl font-light uppercase tracking-wide sm:text-4xl">
+              {data.titulo}
+            </h2>
             <div className="relative mt-8">
               <Quote className="absolute -left-2 top-0 h-8 w-8 rotate-180" />
               <blockquote className="space-y-6 pl-8 text-base font-light leading-relaxed">
