@@ -1,5 +1,3 @@
 export default function AdmissionCTA() {
-  return (
-    <div>admission-cta</div>
-  )
+  return <div>admission-cta</div>
 }

@@ -1,5 +1,3 @@
 export default function ComunicadoDetalle() {
-  return (
-    <div>page</div>
-  )
+  return <div>page</div>
 }

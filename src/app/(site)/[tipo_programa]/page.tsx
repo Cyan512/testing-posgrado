@@ -1,5 +1,3 @@
 export default function TipoProgramaPage() {
-  return (
-    <div>page</div>
-  )
+  return <div>page</div>
 }

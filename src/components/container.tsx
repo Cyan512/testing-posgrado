@@ -1,17 +1,13 @@
-import { cn } from "@/lib/utils";
-import { ReactNode } from "react";
+import { cn } from '@/lib/utils'
+import { ReactNode } from 'react'
 
 type Props = {
-    children: ReactNode;
-    className?: string;
-};
+  children: ReactNode
+  className?: string
+}
 
 export default function Container(props: Props) {
-    const { children, className } = props;
+  const { children, className } = props
 
-    return (
-        <div className={cn("max-w-7xl mx-auto w-full", className)}>
-            {children}
-        </div>
-    );
+  return <div className={cn('max-w-7xl mx-auto w-full px-4 lg:px-8', className)}>{children}</div>
 }
