@@ -27,7 +27,7 @@ export default function Hero() {
         <div className="relative mx-auto max-w-3xl text-center lg:mx-0 lg:text-left">
           <h1 className="uppercase tracking-wide text-4xl sm:text-5xl lg:text-6xl">
             {data.titulo}
-            <span className="mt-3 block font-sans text-base font-light leading-relaxed">
+            <span className="mt-3 block font-serif text-base font-light leading-relaxed">
               {data.subtitulo}
             </span>
           </h1>

@@ -3,3 +3,5 @@ export const ROUTES = {
   COMUNICADOS: '/comunicados',
   PROCESO_ADMISION: '/proceso-admision',
 } as const
+
+export const comunicadoDetalle = (slug: string) => `/comunicados/${slug}`
