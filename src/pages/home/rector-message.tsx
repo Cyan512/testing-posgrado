@@ -34,12 +34,8 @@ export default function RectorMessage() {
             </div>
           </div>
           <div className="flex flex-col justify-center lg:col-span-7">
-            <h2 className="font-bold text-2xl sm:text-3xl">
-              &ldquo;{data.titulo}&rdquo;
-            </h2>
-            <p className="relative mt-4">
-              {data.mensaje}
-            </p>
+            <h2 className="font-bold text-2xl sm:text-3xl">&ldquo;{data.titulo}&rdquo;</h2>
+            <p className="relative mt-4">{data.mensaje}</p>
             <div className="mt-8 border-l-2 pl-8">
               <div className="text-lg font-light">{data.director.nombre}</div>
               <div className="mt-1 text-xs font-light uppercase tracking-widest">
